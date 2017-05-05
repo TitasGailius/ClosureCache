@@ -30,7 +30,7 @@ $ composer require titasgailius/closure-cache
 ```json
 {
     "require": {
-        "titasgailius/closurecache": "~1.00"
+        "titasgailius/closure-cache": "~1.00"
     }
 }
 ```
