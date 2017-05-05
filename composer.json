@@ -1,0 +1,33 @@
+{
+    "name": "titasgailius/closure-cache",
+    "description": "Cache method, function or closure results.",
+    "type": "library",
+    "keywords": ["closure", "cache"],
+    "authors": [
+        {
+            "name": "Titas Gailius",
+            "email": "titas.gailius@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ClosureCache\\": "src/ClosureCache"
+        },
+        "files": [
+            "src/ClosureCache/Helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "phpunit": "./vendor/bin/phpunit;"
+    }
+}
