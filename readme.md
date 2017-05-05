@@ -24,7 +24,7 @@ return ClosureCache::remember(function () {
 
 ### With composer
 ```
-$ composer require titasgailius/closurecache
+$ composer require titasgailius/closure-cache
 ```
 
 ```json
