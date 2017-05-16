@@ -9,15 +9,13 @@ It calculates result of the closure once and returns it on subsequent calls.
 
 use ClosureCache\ClosureCache;
 
-return once(function () {
-    // Code...
-});
+function somethingSlow()
+{
+    return once(function () {
+        // Code...
+    });
+}
 
-// OR
-
-return ClosureCache::remember(function () {
-    // Code...
-});
 ```
 
 ## Installation
